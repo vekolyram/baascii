@@ -38,7 +38,7 @@ int main()
 	{
 		std::vector<std::string> elems = stringSplit(buf, '|');
 		std::cout << buf << std::endl;
-		for (std::string elem, elems) {
+		for (std::string elem : elems) {
 			std::cout << elems[1] << std::endl;
 		}
 	}
